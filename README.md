@@ -39,3 +39,9 @@ Pexels (2026) Ginger cat sitting outdoors in sunlight. Available at: https://www
 SurveyMonkey (2026) General inquiry contact form template. Available at: https://www.surveymonkey.com/templates/general-inquiry-contact-form/ (Accessed: 12 August 2026).
 @TheCoderCoder (2026) How to use Git & GitHub in VS Code - beginners tutorial. YouTube. Available at: https://youtu.be/1gDkpZ0AjlQ (Accessed: 11 August 2026).
 
+PART 2 - 18 September 2026
+
+Added style.css
+Fixed my part 1
+Errors discovered on index, enquiry, about, index and services
+Added grid on services
