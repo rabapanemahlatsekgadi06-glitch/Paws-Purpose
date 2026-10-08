@@ -41,10 +41,7 @@ SurveyMonkey (2026) General inquiry contact form template. Available at: https:/
 
 PART 2 - 18 September 2026
 
-Added style.css
-
-Fixed my part 1
-
-Errors discovered on index, enquiry, about, index and services
-
-Added grid on services
+1) Added style.css
+2) Fixed my part 1
+3) Errors discovered on index, enquiry, about, index and services
+4) Added grid on services
