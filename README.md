@@ -51,3 +51,14 @@ PART 3 - 02 November 2026
 1) Added JavaScript
 2) Fixed my contact and enquiry form
 3) Updated my CSS style
+4) Added new pictures for available pets
+5) Added sitemap.xml
+6) Added new pets
+
+   References
+   Golden yellow labrador dog - https://share.google/6yauLfRTv4hcKmscq
+   Elder black dog- https://share.google/xXuuqVinDzKHoVK2A
+   White cat - https://share.google/GugoMhn8yHrnSdka2
+   Twins - https://share.google/cMquTeY1rfQ90R5JV
+   Referenced my lectures website for the JavaScript
+   SEO and publishing | Bakery website practice - Web Development | Student Guide
