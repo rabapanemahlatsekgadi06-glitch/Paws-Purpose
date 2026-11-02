@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Paws & Purpose | Adopt a Pet</title>
+
+      <!-- Links this HTML page to the external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+     <!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
+
+    <header>
+
+        <p>
+            <img src="imgs/Paws & Purpose.jpg"
+                 alt="Paws & Purpose Logo"
+                 width="250">
+
+                 <h1>Meet our furry friends.</h1>
+
+         <p>
+            <em>Get to know our wonderful friends.</em>
+        </p>     
+      
+        <hr>
+
+    </header>
+    
+     <!-- ========================= -->
+    <!-- NAVIGATION -->
+    <!-- ========================= -->
+
+    <nav>
+
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Adopt a Pet</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+
+    </nav>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- MAIN CONTENT -->
+    <!-- ========================= -->
+
+    <main>
+        <section>
+         <h1>Adopt a Pet</h1>
+
+    <p>Browse animals currently in our car and ready for adoption.</p>
+
+    <!--How it works-->
+    <h2>How Adoption Works</h2>
+    
+    <p>
+        Our adoption process is designed to make sure every animal goes to a safe, suitable home:
+    </p>
+
+
+<!--Ordered List-->
+<ol type="1">
+    <li>Browse our available animals below or vist the shelter in person.</li>
+    <li>Submit an adoption enquire using our <a href="enquiry.html">enquiry form</a>.</li>
+    <li>Meet the animal and chat with our team about your home and lifestyle.</li>
+    <li>Complete a short adoption agreement and pay a small adoption fee.
+        It covers vaccination and sterilisation costs.
+    </li>
+    <li>Take your new companion home😊.</li>
+
+</ol>
+
+<section>
+
+    <hr>
+
+    </section>
+
+<!--Products-->
+<h1>Available Now</h1>
+
+ <!-- Animal cards -->
+<div class="services-grid-wrapper">
+
+    <!-- Buddy-->
+     <section class="service-card">
+ <h3>Buddy</h3>
+ <p>Gentle,house trained and great with childern.Loves long walks.</p>
+
+    <img src = "imgs/dog.jpg"
+    alt="Brown medium sized dog sitting and looking at camera"
+    width="120"
+    class="lightbox-image">
+
+    <p>Dog- 2 years</p>
+
+    <!-- The button controls the details panel below it.-->
+
+    <button class="accordion-button"
+    type="button"
+    aria-expanded="false"
+    aria-controls="buddy-details">
+    Show details
+    </button>
+
+    <!-- The hidden attribute keeps the details hidden on the page load.-->
+     <div id="buddy-details" class="accordion-content" hidden>
+        <p><strong>Temperament:</strong> Friendly and calm.</p>
+        <p><strong>Status:</strong> Available</p>
+        <p><a href="enquiry.html">Enquire about Buddy</a></p>
+     </div>
+    </section>
+
+    <!-- Misty-->
+     <section class="service-card">
+    <h3>Misty</h3>
+    <p>Calm and affectionate. Prefers a quiet home without other pets.</p>
+
+     <img src="imgs/cat.jpg" 
+    alt="Grey tabby cat resting on a blanket"
+    width="120"
+    class="lightbox-image">
+
+    <p>Cat- 3 years</p>
+
+    <button class="accordion-button"
+    type="button"
+    aria-expanded="false"
+    aria-controls="misty-details">
+        Show details
+    </button>
+
+    <div id="misty-details" class="accordion-content" hidden>
+        <p><strong>Temperament:</strong> Quiet and gentle.</p>
+        <p><strong>Status:</strong> Available</p>
+        <p><a href="enquiry.html">Enquire about Misty</a></p>
+    </div>
+    </section>
+
+    <!-- Coco-->
+    <section class="service-card">
+    <h3>Coco</h3>
+    <p>Playful and energetic. Ideal for an active family.</p>
+
+    <img src="imgs/puppy.jpg" 
+    alt="Small black and white puppy playing outdoors"
+    width="120"
+    class="lightbox-image">
+
+    <p>Puppy- 6 months</p>
+
+    <button class="accordion-button"
+    type="button"
+    aria-expanded="false"
+    aria-controls="coco-details">
+        Show details
+    </button>
+
+    <div id="coco-details" class="accordion-content" hidden>
+        <p><strong>Temperament:</strong> Energetic and eager to learn.</p>
+        <p><strong>Status:</strong> Available</p>
+        <p><a href="enquiry.html">Enquire about Coco</a></p>
+    </div>
+    </section>
+
+   <!-- Simba-->
+    <section class="service-card">
+    <h3>Simba</h3>
+    <p>Curious and playful, good with other cats.</p>
+
+
+    <img src="imgs/gingercat.jpg"
+     alt="Ginger cat sitting upright"
+     width="120"
+     class="lightbox-image">
+
+     <p>Cat- 1 year</p>
+
+     <button class="accordion-button"
+     type="button"
+     aria-expanded="false"
+     aria-controls="simba-details">
+    Show details
+    </button>
+
+    <div id="simba-details" class="accordion-content" hidden>
+        <p><strong>Temperament:</strong> Curious and social.</p>
+        <p><strong>Status:</strong> Available</p>
+        <p><a href="enquiry.html">Enquire about Simba</a></p>
+    </div>
+     </section>
+
+     </div>
+
+     <section>
+
+        <h2>View Our Other Animals</h2>
+
+        <p id="more-animals-message">
+            We have more animals waiting for a home. Click the button to meet them.
+        </p>
+
+        <button id="more-animals-button" type="button">
+            View our other animals
+        </button>
+
+    <!-- The hidden attribute keeps these animals hidden on page load. -->
+     <div id="more-animals" class="services-grid-wrapper" hidden>
+
+        <!-- Bella-->
+         <section class="service-card">
+            <h3>Bella</h3>
+            <p>Loyal and loving. Walks well on a leash and enjoys cuddles on the couch.</p>
+
+            <img src="imgs/golden yellow labrador dog.webp" 
+            alt="Golden labrador lying on grass"
+            width="120"
+            class="lightbox-image">
+
+            <p>Dog - 4 years</p>
+
+            <button class="accordion-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="bella-details">
+        Show details
+        </button>
+
+        <div id="bella-details" class="accordion-content" hidden>
+            <p><strong>Temperament:</strong> Loyal and affectionate.</p>
+            <p><strong>Status:</strong> Available</p>
+            <p><a href="enquiry.html">Enquire about Bella</a></p>
+        </div>
+         </section>
+
+         <!-- Max-->
+          <section class="service-card">
+            <h3>Max</h3>
+            <p>A calm senior dog who is happiest with a slow walk and a warm bed.</p>
+
+            <img src="imgs/elderly black dog.webp" 
+            alt="Older grey faced dog resting on a rug"
+            width="120"
+            class="lightbox-image">
+
+            <p>Dog - 8 years</p>
+
+            <button class="accordion-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="max-details">
+        Show details
+        </button>
+
+        <div id="max-details" class="accordion-content" hidden>
+            <p><strong>Temperament:</strong> Calm and gentle.</p>
+            <p><strong>Status:</strong> Available (reduced senior adoption fee)</p>
+            <p><a href="enquiry.html">Enquire about Max</a></p>
+        </div>
+          </section>
+
+    <!-- Daisyy-->      
+     <section class="service-card">
+        <h3>Daisyy</h3>
+        <p>A tiny, curious kitten who loves chasing toys and climbing everything.</p>
+
+        <img src="imgs/white cat.jpg" 
+        alt="White kitten with blue eyes sitting on a blanket"
+        width="120"
+        class="lightbox-image">
+
+        <p>Kitten - 4 months</p>
+
+        <button class="accordion-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="daisyy-details">
+    Show details
+    </button>
+
+    <div id="dasiy-details" class="accordion-content" hidden>
+        <p><strong>Temperament:</strong> Playful and curious.</p>
+        <p><strong>Status:</strong> Available</p>
+        <p><a href="enquiry.html">Enquire about Dasiy</a></p>
+    </div>
+     </section>
+
+     <!-- Oliver & Olivia -->
+      <section class="service-card">
+        <h3>Oliver & Olivia</h3>
+        <p>Twin puppies looking for a home together. Oliver  has golden fur and Olivia has white fur.</p>
+
+        <img src="imgs/twins.jpg" 
+        alt="Two puppies sitting side by side, one with golden furnand one with white fur"
+        width="120"
+        class="lightbox-image">
+
+        <p>Puppies - 8 months (twins)</p>
+
+        <button class="accordion-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="twins-details">
+    Show details
+    </button>
+
+    <div id="twins-details" class="accordion-content" hidden>
+        <p><strong>Oliver:</strong> Golden fur. Playful and friendly.</p>
+        <p><strong>Olivia:</strong> White fur. Gentle and a little shy.</p>
+        <p><strong>Status:</strong> Available (they can be adopted together or separately)</p>
+        <p><a href="enquiry.html">Enquire about Oliver and Olivia</a></p>
+    </div>
+      </section>
+
+
+     </div>    
+     </section>
+
+     <hr>
+
+     <!-- Sterilisation Program-->
+     <section>
+     <h2>Sterilisation Program</h2>
+     <p>
+        We offer a low cost sterilisation service for community pet owners to help reduce animal
+        overpopulation. Contact us via the enquiry form to book a slot for your pet.
+     </p>
+     </section>
+
+      </main>
+
+    <!-- ========================= -->
+    <!-- LIGHTBOX -->
+    <!-- ========================= -->
+
+    <!-- The dialog opens when a user clicks on an animal photo -->
+     <dialog id="image-lightbox">
+
+        <button id="close-lightbox" type="button">Close</button>
+
+    <!-- JS will display the clicked animal photo here -->
+     <p>
+        <img id="lightbox-image" src="" alt="">
+     </p>
+
+     </dialog>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+
+    <footer>
+
+        <p>
+            <strong>Paws & Purpose</strong>
+        </p>
+
+        <p>
+            &copy; 2026 Paws & Purpose.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

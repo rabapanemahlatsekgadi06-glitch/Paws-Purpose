@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Purpose | Contact</title> 
+
+    <!-- Links this HTML page to the external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
+
+    <header>
+
+        <p>
+            <img src="imgs/Paws & Purpose.jpg"
+                 alt="Paws & Purpose Logo"
+                 width="250">
+        </p>
+
+        <h1>Contact Us</h1>
+
+        <p>
+            <em>We would love to hear from you.</em>
+        </p>
+
+        <hr>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- NAVIGATION -->
+    <!-- ========================= -->
+
+    <nav>
+
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Adopt a Pet</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+
+    </nav>
+
+    <hr>
+
+      <!-- ========================= -->
+    <!-- MAIN CONTENT -->
+    <!-- ========================= -->
+
+    <main>
+
+        <!-- Contact Details -->
+        <section>
+
+            <h2>Contact Us</h2>
+
+            <!--Locations-->
+            <h2>Our Locations</h2>
+            <p>
+                We have two locations. Visit whichever is nearest to you.
+            </p>
+
+            <h3>Main shelter - Pretoria</h3>
+
+            <p>
+                <strong>Address:</strong>
+                <br>
+                Heuwel Rd, Pretoria
+                Gauteng
+                0051
+            </p>
+
+            <p>
+                <strong>Telephone:</strong>
+                <br>
+
+                <a href="tel:+27126631714">
+                    012 663 1714
+                </a>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <br>
+
+                <a href="mailto:pretoria@pawsandpurpose.org">
+                    pretoria@pawsandpurpose.org
+                </a>
+            </p>
+
+            <!--Business Hours-->
+              <h4>Business Hours</h4>
+
+            <ul>
+
+                <li>
+                    Monday - Friday: 09:00 - 17:00
+                </li>
+                <li>
+                    Saturday: 09:00 - 14:00
+                </li>
+                <li>
+                    Sunday: Closed
+                </li>
+            </ul>
+
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h3>Adoption Drop-in Center - Johannesburg</h3>
+
+             <p>
+                <strong>Address:</strong>
+                <br>
+                225 Beyers Naude Dr, Johannesburg
+                Gauteng
+                2001
+            </p>
+
+            <p>
+                <strong>Telephone:</strong>
+                <br>
+
+                <a href="tel:+27117825063">
+                    011 782 5063
+                </a>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <br>
+
+                <a href="mailto:johannesburg@pawsandpurpose.org">
+                    johannesburg@pawsandpurpose.org
+                </a>
+            </p>
+
+              <h4>Business Hours</h4>
+
+            <ul>
+
+                <li>
+                    Tuesday - Sunday: 10:00 - 16:00
+                </li>
+                <li>
+                    Monday: Closed
+                </li>
+            </ul>
+
+        </section>
+
+ <!-- Contact Form -->
+        <section>
+
+            <h2>Contact Form</h2>
+
+            <p>
+                Send a general message to our team. Once your details are checked,
+                we will prepare an email for you to send.
+            </p>
+
+            <form id="contact-form" novalidate>
+
+                <div class="form-group">
+                    <label for="contactname">Name *</label>
+                    <input type="text" id="contactname" name="contactname"
+                    placeholder="Enter your name">
+                    <span class="error" id="contactname-error"></span>
+                </div>
+
+            <div class="form-group">
+                <label for="contactname">Email *</label>
+                <input type="email" id="contactemail" name="contactemail"
+                placeholder="Enter your email">
+                <span class="error" id="contactemail-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="contactcentre">Which center are you contacting? *</label>
+                <select name="contactcentre" id="contactcentre">
+                    <option value="">-- Please select --</option>
+                    <option value="pretoria">Main shelter - Pretoria</option>
+                    <option value="johannesburg">Adoption Drop-in Center - Johannesburg</option>
+                </select>
+                <span class="error" id="contactcentre-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="contacttype">Type of message *</label>
+                <select name="contacttype" id="contacttype">
+                    <option value="">-- Please select --</option>
+                    <option value="General question">General question</option>
+                    <option value="Adoption">Adoption</option>
+                    <option value="volunteering">Volunteering</option>
+                    <option value="Sponsorship">Sponsorship</option>
+                    <option value="Feedback">Feedback</option>
+                </select>
+                <span class="error" id="contacttype-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="contactmessage">Message *</label>
+                <textarea name="contactmessage" id="contactmessage"
+                rows="6" cols="50" 
+                placeholder="Enter your message"></textarea>
+                <span class="error" id="contactmessage-error"></span>
+            </div>
+
+            <button type="submit" class="btn">Prepare Email</button>
+            <p id="contact-feedback" role="status" aria-live="polite"></p>
+
+           </form>
+
+           <!-- Shown after the form is validated-->
+            <div id="email-preview" class="response-box" hidden>
+                <h3>Your email is ready</h3>
+                <p><strong>To:</strong><span id="preview-to"></span></p>
+                <p><strong>Subject:</strong><span id="preview-subject"></span></p>
+                <pre id="preview-body"></pre>
+                <a id="send-email" class="btn" href="#">Open in my email app and send</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <hr>
+
+    <footer>
+
+        <p>
+            <strong>Paws & Purpose</strong>
+        </p>
+
+        <p>
+            &copy; 2026 Paws & Purpose
+            &nbsp; | &nbsp;
+            All Rights Reserved
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

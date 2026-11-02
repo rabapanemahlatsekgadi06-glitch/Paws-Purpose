@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/rabapanemahlatsekgadi06-glitch/Paws-Purpose/sitemap.xml
+   
