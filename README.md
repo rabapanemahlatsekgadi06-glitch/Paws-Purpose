@@ -45,3 +45,9 @@ PART 2 - 18 September 2026
 2) Fixed my part 1
 3) Errors discovered on index, enquiry, about, index and services
 4) Added grid on services
+
+PART 3 - 02 November 2026
+
+1) Added JavaScript
+2) Fixed my contact and enquiry form
+3) Updated my CSS style
