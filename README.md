@@ -55,10 +55,14 @@ PART 3 - 02 November 2026
 5) Added sitemap.xml
 6) Added new pets
 
-   References
-   Golden yellow labrador dog - https://share.google/6yauLfRTv4hcKmscq
-   Elder black dog- https://share.google/xXuuqVinDzKHoVK2A
-   White cat - https://share.google/GugoMhn8yHrnSdka2
-   Twins - https://share.google/cMquTeY1rfQ90R5JV
-   Referenced my lectures website for the JavaScript
-   SEO and publishing | Bakery website practice - Web Development | Student Guide
+References
+1) Golden yellow labrador dog - https://share.google/6yauLfRTv4hcKmscq (Accessed:01 November 2026)
+2) Elder black dog- https://share.google/xXuuqVinDzKHoVK2A (Accessed:01 November 2026)
+3) White cat - https://share.google/GugoMhn8yHrnSdka2 (Accessed:01 November 2026)
+4)Twins - https://share.google/cMquTeY1rfQ90R5JV (Accessed:01 November 2026)
+5)Referenced my lectures website for the JavaScript
+6)SEO and publishing | Bakery website practice - Web Development | Student Guide
+  
+   
+  
+   
